@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: antonio-guevara-portfolio
+description: > # this means to ignore newlines until "baseurl:"
+  Portafolio y proyectos | Documentos y Blog
+repository: https://twitter.com/Th3Antoniooo
+baseurl: /blog  # the subpath of your site, e.g. /blog
+url: https://wemake-services.github.io  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+
+# Customizations
+your_name: antonio-guevara
+email: contact@antoniocorp.art
+
+navigation:
+  - text: Inicio
+    url: /
+  - text: Documentos
+    url: /docs
+  - text: Examples
+    url: /examples
+
+projects:
+  - name: elon-ad
+    description: Anuncio de Descuento.
+    link: https://www.behance.net/gallery/156416823/SparkedxElon-Twitter-AD
+  - name: open-tryouts
+    description: Banner hecho para SkeresEsports. Instagram.
+    link: https://www.behance.net/gallery/152097433/Open-Tryouts-Post-Instagram
+  - name: camiseta-fotografia-edición
+    description: Fotografía de la camiseta y edición posterior para 7DGamingg.
+    link: https://www.behance.net/gallery/152097725/Camiseta-Fotografia-Diseno-Instagram-Post
+  - name: Apollo-Panel-Draw-SparkedHost
+    description: Ilustración del Panel de Apollo del servicio de Alojamiento de Sparked Host LLC
+    link: https://www.behance.net/gallery/156417119/Apollo-Panel-Draw-SparkedHost
+
+social:
+  - service: github
+    username: sobolevn
+    link: https://github.com/Th3Antoniooo
+  - service: twitter
+    username: sobolevn
+    link: https://twitter.com/Th3Antoniooo
+
+# Plugins
+gems:
+  - jekyll-seo-tag
